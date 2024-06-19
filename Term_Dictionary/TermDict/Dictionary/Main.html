@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사전 관리</title>
+</head>
+
+<body>
+    <h1>사전 관리</h1>
+    <h2>용어 추가</h2>
+    <input type="text" id="addTerm" placeholder="용어 입력">
+    <input type="text" id="addDefinition" placeholder="설명 입력">
+    <button id="addButton">추가</button>
+    <div id="addFeedback"></div>
+
+    <h2>용어 수정</h2>
+    <input type="text" id="searchTerm" placeholder="수정할 용어 검색">
+    <button id="searchButton">검색</button>
+    <div id="editSection" style="display:none;">
+        <input type="text" id="editTerm" placeholder="용어 수정">
+        <input type="text" id="editDefinition" placeholder="설명 수정">
+        <button id="saveButton">저장</button>
+    </div>
+    <div id="editFeedback"></div>
+
+    <h2>용어 삭제</h2>
+    <input type="text" id="deleteTerm" placeholder="삭제할 용어 입력">
+    <button id="deleteButton">삭제</button>
+    <div id="deleteFeedback"></div>
+
+    <h2>용어 검색</h2>
+    <input type="text" id="searchKeyword" placeholder="검색할 키워드 입력">
+    <button id="searchKeywordButton">검색</button>
+    <div id="searchResults"></div>
+
+    <script src="Act.js"></script>
+</body>
+</html>
